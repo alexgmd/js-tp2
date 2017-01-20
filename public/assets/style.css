@@ -1,0 +1,66 @@
+body{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding-bottom: 10px;
+}
+
+img.displayed {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1; 
+    width: 1500px;
+    height: 1000px;
+}
+
+button #compute, #car, #rental {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 200px;
+    margin: 15px auto;
+    padding: 4px;
+}
+
+#compute, #car input, #rental input 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+}
+#compute, #car input:focus, #rental input:focus
+{
+    box-shadow: 0 0 5px #ff4d4d;
+    padding: 15px;
+    border: 1px solid #ff4d4d;
+}
+
+#compute{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    padding: 15px;
+    background: #ff6666;
+    border-bottom: 2px solid #ff4d4d;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+
+#compute:hover{
+    background: #ff4d4d;
+}
